@@ -16,7 +16,7 @@ int main() {
 	read();
 
 	perm(0);
-	printf("�ִ� �Ÿ�: %f ", mindist);
+	printf("ÃÖ´Ü °Å¸®: %f ", mindist);
 	printf("[ ");
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < n; j++)
@@ -72,7 +72,7 @@ void perm(int k) {
 }
 
 double get_distance(int x, int y, int x1, int y1) {
-	return (double)sqrt((x - x1)*(x - x1) + (y - y1)*(y - y1));
+	return sqrt((x - x1)*(x - x1) + (y - y1)*(y - y1));
 }
 
 void swap(int data[][2], int a, int b) {
